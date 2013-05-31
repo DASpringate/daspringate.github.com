@@ -8,6 +8,21 @@
     <category>data</category>
     <category>informatics</category>
     <category>biostatistics</category>
+    <item><title>Mapping academic collaborations in Evolutionary Biology</title><link>http://daspringate.github.io/posts/2013/05/Evolutionary_biology_social_network.html</link><category>Python</category><category>R</category><category>Visualisations</category><description>&lt;h1&gt;Mapping academic collaborations in Evolutionary Biology&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;This post is a repubication of a visualisation I did in 2011 for my (now defunct) datajujitsu.co.uk blog.  It was a naive first attempt at web-scraping from an academic publishers website.  It was done before I was aware of the problems surrounding access to, and text-mining of, online academic content hosted by publishers such as Wiley and Elsevier. Producing such a piece now (in 2013) would certainly be regarded as a political act. The text and visualisations are unchanged from the original&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Like many people, I was immensely impressed with Paul Butler&amp;#39;s &lt;a href=&quot;http://paulbutler.org/archives/visualizing-facebook-friends/&quot;&gt;global map of facebook friend connections&lt;/a&gt;, a spectacular way of visualising, and humanising, a large amount of raw data.
+I was further impressed to find out that he did it solely using R. I recently found Flowingdata&amp;#39;s &lt;a href=&quot;http://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/&quot;&gt;tutorial&lt;/a&gt; on creating the same effect using flight information and got to thinking about what other datasets I could apply it to.
+My original plan was to build a scraper to get all of the abstracts from a particular subject from &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/&quot;&gt;Pubmed&lt;/a&gt; and visualise the academic collaborations between institutions for all of these abstracts. Unfortunately though, Pubmed only stores the addresses of the institutions of the corresponding author, so I decided to stick with my own subject, evolutionary biology, and get all the abstacts from the journals &lt;a href=&quot;http://onlinelibrary.wiley.com/journal/10.1111/(ISSN&quot;&gt;Evolution&lt;/a&gt;1558-5646) and &lt;a href=&quot;http://onlinelibrary.wiley.com/journal/10.1111/(ISSN&quot;&gt;Evolutionary Biology&lt;/a&gt;1420-9101) since 2009. I could then extract these using a hacked together Python script which would then feed the addresses into the &lt;a href=&quot;http://developer.yahoo.com/geo/placefinder/&quot;&gt;Yahoo PlaceFinder&lt;/a&gt; api to get a data set of coordinates for each cross-institution collaboration in every paper published in the journals for the last two and a half years.
+I then fed this data into R, generated great circles for each of the collaborations using the geosphere package and processed it a la FlowingData to get the following global map of academic collaboration in evolutionary biology since 2009:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://daspringate.github.io/img/evolution_social_network.png&quot; alt=&quot;Evolution social network 2009-2011&quot;/&gt;&lt;/p&gt;
+
+&lt;p&gt;You can clearly see the main hubs of collaboration in Europe and the East and West coasts of the USA, with smaller hubs in Japan and South-Eastern Australia. There are further actively collaborating institutions in South America and Africa, but almost all of their collaborations are with North american and European Universities. Looking into the data itself, the median longitude for JEB institutions is firmly in Europe, while the median longitude for Evolution in the USA (This makes sense since Evolution is based in the states while JEB is a European journal, though there is no geographic imperative to publish in either).
+Technical info:
+I scraped the data from the Wiley website for the two journals using Python and BeautifulSoup. For the R analysis I used the modules maps, geosphere, reshape and gdata.&lt;/p&gt;
+</description></item>
     <item><title>Develop in RStudio, run in RScript</title><link>http://daspringate.github.io/posts/2013/05/RStudio_server_tips.html</link><category>R</category><category>RStudio</category><category>Multicore</category><description>&lt;h1&gt;Develop in RStudio, run in RScript&lt;/h1&gt;
 
 &lt;p&gt;I have been using RStudio Server for a few months now and am finding it a great tool for R development.  The web interface is superb and behaves in almost exactly the same way as the desktop version.  However, I do have one gripe which has forced me to change my working practices slightly - It is really difficult to crash out of a frozen process.  Whereas in Console R, I could just hit Control-D to get out and back to Bash, in RStudio, while you can use the escape key to terminate an operation, if you have a big process going on everything just freezes and you can&amp;#39;t do anything.  One way to deal with this is to kill the rstudio process in another terminal, but this kills the whole session, including the editor, and you will lose anything you haven&amp;#39;t saved in your scripts.  This problem is exacerbated when I am trying to use run parallel processes using the &lt;code&gt;Multicore&lt;/code&gt; package, because it takes an age to kill all of the extra forks first.&lt;/p&gt;
@@ -287,9 +302,9 @@ apply(bstrap, MARGIN=1, FUN=quantile,
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;##       (Intercept) Petal.Length
-## 2.5%        4.158       0.3735
-## 50%         4.308       0.4083
-## 97.5%       4.449       0.4448
+## 2.5%        4.155       0.3703
+## 50%         4.311       0.4083
+## 97.5%       4.458       0.4485
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This is an elegant way to solve a common analysis problem in R.  If you are running a large model and you want to speed things up (and you have a few cores free!), it is a simple task and a couple of lines of code to replace the call to &lt;code&gt;sapply&lt;/code&gt; to one to &lt;code&gt;multicore::mclapply&lt;/code&gt; and run the model on as many processor cores as you can.&lt;/p&gt;
@@ -323,9 +338,9 @@ cbind( &amp;quot;(Intercept)&amp;quot;=quantile(bstrap2[,1],probs = CIs),
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;##       (Intercept) Petal.Length
-## 2.5%        4.158       0.3691
-## 50%         4.308       0.4087
-## 97.5%       4.449       0.4441
+## 2.5%        4.161       0.3679
+## 50%         4.300       0.4106
+## 97.5%       4.450       0.4485
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The code duplication in the &lt;code&gt;cbind&lt;/code&gt; is a pain, as is having to name the coefficients directly.  Both of these reduce the generalisability of the algorithm.&lt;/p&gt;
