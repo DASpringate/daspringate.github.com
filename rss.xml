@@ -8,6 +8,28 @@
     <category>data</category>
     <category>informatics</category>
     <category>biostatistics</category>
+    <item><title>Book review: Machine Learning with R</title><link>http://daspringate.github.io/posts/2014/01/Review_ML_with_R.html</link><category>R</category><category>review</category><category>ML</category><description>&lt;h1&gt;Book review: Machine Learning with R&lt;/h1&gt;
+
+&lt;p&gt;Machine Learning with R by Brett Lantz&lt;/p&gt;
+
+&lt;p&gt;[Full disclosure - I was given a free review copy of the book from the publisher.  This review refers to the ebbok version]&lt;/p&gt;
+
+&lt;p&gt;This is the most recent of a group of books that try to explore machine learning from a programming, rather than purely mathematical, perspective. The book is highly successful in this respect and deserves a place on the bookshelf of any data scientist, Kaggler or statistician.&lt;/p&gt;
+
+&lt;p&gt;The book takes a slightly different tack from previous ones in this field (See &amp;#39;Programming Collective Intelligence&amp;#39; and &amp;#39;Machine learning for Hackers&amp;#39;) in that it concentrates largely on the packages themselves and how to use them to solve real world ML problems, rather than focusing on coding up simple algorithms from scratch and running these on toy datasets.  Perhaps this way the book doesn&amp;#39;t provide as much insight into how the algorithm design, but it does make the book much more practically useful, particularly since it spends a good chunk of each chapter explaining the algorithm in simple, plain English.&lt;/p&gt;
+
+&lt;p&gt;The book is well laid out and written.  Despite a slightly shaky start (do we really still think of ML in terms of Skynet, the Matrix and Hal?), the introduction is excellent and gives a pleasing summary of the philosophical and ethical issues surrounding machine learning and big data. Next, there is a thoughtful introduction to data management and exploratory data analysis that highlights important and often missed tips on things like getting data out of SQL databases.  It introduces some basic R functions and concepts (some I had managed to miss up until now) without feeling like a tacked on &amp;#39;R for beginners&amp;#39; chapter.&lt;/p&gt;
+
+&lt;p&gt;In the guts of the book, each chapter focuses on a group of related algorithms (KNN, Naive Bayes, Decision trees, Regression, Neural nets and SVMs, association rules, clustering) and has a good introduction to the algorithm in question, followed by sections on finding and cleaning data, implementing the algorithm on the data and evaluating and improving model performance. There are clear and easy to understand tables and descriptions of the important distinctions between the algorithms and the reasons for choosing one over another.  The datasets the author has chosen are large and interesting enough to well illustrate the points being made without being frustratingly unwieldy and many of them are &amp;#39;classic&amp;#39; machine learning datasets from places such as the UCI Machine Learning Data Repository. &lt;/p&gt;
+
+&lt;p&gt;Next, the book looks more deeply at evaluating and improving model performance and discusses important ensemble and meta-learning techniques like bagging, boosting and RandomForests.  This section will be of particular interest to people wanting to enter Kaggle or other data science competitions because they show how to milk as much performance as possible from the basic algorithms described earlier in the book.&lt;/p&gt;
+
+&lt;p&gt;The final section discusses getting the algorithms to run on big datasets and improving the performance of R itself using tricks like the data.table and ff packages and parallel processing.  This is the only section of the book that feels slightly rushed and many of these topics are discussed only briefly before linking to the relevant package documentation.  This is only small criticism though, since coding up these kinds of systems will depend strongly on the data you have and these are difficult subjects to cover whilst retaining generality.&lt;/p&gt;
+
+&lt;p&gt;Obviously, the book cannot cover everything.  It is decidedly light on graphs and has almost nothing on visualisation techniques and packages like ggplot2 which have become almost mandatory for doing data science today. Also, if you are new to R, you really want to get one of the excellent introductory books first and if you are new to ML, you probably want to spend a while learning some basic stats as well.  Finally, this book doesn&amp;#39;t pretend to be a deep text about the mathematics of the algorithms it covers.  For that you will need to go for something like Bishop&amp;#39;s classic &amp;#39;Pattern Recognition and Machine Learning&amp;#39; and be prepared to put in some serious effort!&lt;/p&gt;
+
+&lt;p&gt;In short, if you are looking for a practical guide to implementing ML algorithms on real data and if you are more comfortable thinking in R code than in mathematical equations, this is the book for you and is the best that I have seen on the subject so far.   &lt;/p&gt;
+</description></item>
     <item><title>Mapping academic collaborations in Evolutionary Biology</title><link>http://daspringate.github.io/posts/2013/05/Evolutionary_biology_social_network.html</link><category>Python</category><category>R</category><category>Visualisations</category><description>&lt;h1&gt;Mapping academic collaborations in Evolutionary Biology&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;This post is a republication of a visualisation I did in 2011 for my (now defunct) datajujitsu.co.uk blog.  It was a naive first attempt at web-scraping from an academic publishers website.  It was done before I was aware of the problems surrounding access to, and text-mining of, online academic content hosted by publishers such as Wiley and Elsevier. Producing such a piece now (in 2013) would certainly be regarded as a political act. The text and visualisations are unchanged from the original&lt;/em&gt;&lt;/p&gt;
@@ -30,7 +52,20 @@ I scraped the data from the Wiley website for the two journals using Python and 
 &lt;p&gt;So, now I use RStudio for development and testing and run my final analysis scripts directly using Rscript.  I have this line of code at the start of my scripts&amp;hellip;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;r&quot;&gt;require(multicore)
-cat(sprintf(&amp;quot;Multicore functions running on maximum %d cores&amp;quot;,
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## Loading required package: multicore
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## Attaching package: &amp;#39;multicore&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;## The following object(s) are masked from &amp;#39;package:tools&amp;#39;:
+## 
+## SIGCHLD, SIGSTOP, SIGUSR1, SIGUSR2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;cat(sprintf(&amp;quot;Multicore functions running on maximum %d cores&amp;quot;,
             ifelse(length(commandArgs(trailingOnly=TRUE)), 
                    cores &amp;lt;- commandArgs(trailingOnly=TRUE)[1],
                    cores &amp;lt;- 1)))
@@ -302,9 +337,9 @@ apply(bstrap, MARGIN=1, FUN=quantile,
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;##       (Intercept) Petal.Length
-## 2.5%        4.162       0.3691
-## 50%         4.306       0.4089
-## 97.5%       4.456       0.4455
+## 2.5%        4.160       0.3707
+## 50%         4.305       0.4091
+## 97.5%       4.451       0.4469
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;This is an elegant way to solve a common analysis problem in R.  If you are running a large model and you want to speed things up (and you have a few cores free!), it is a simple task and a couple of lines of code to replace the call to &lt;code&gt;sapply&lt;/code&gt; to one to &lt;code&gt;multicore::mclapply&lt;/code&gt; and run the model on as many processor cores as you can.&lt;/p&gt;
@@ -338,9 +373,9 @@ cbind( &amp;quot;(Intercept)&amp;quot;=quantile(bstrap2[,1],probs = CIs),
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;##       (Intercept) Petal.Length
-## 2.5%        4.156       0.3681
-## 50%         4.301       0.4097
-## 97.5%       4.450       0.4462
+## 2.5%        4.159       0.3723
+## 50%         4.305       0.4084
+## 97.5%       4.443       0.4448
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;The code duplication in the &lt;code&gt;cbind&lt;/code&gt; is a pain, as is having to name the coefficients directly.  Both of these reduce the generalisability of the algorithm.&lt;/p&gt;

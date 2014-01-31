@@ -14,7 +14,20 @@
 <p>So, now I use RStudio for development and testing and run my final analysis scripts directly using Rscript.  I have this line of code at the start of my scripts&hellip;</p>
 
 <pre><code class="r">require(multicore)
-cat(sprintf(&quot;Multicore functions running on maximum %d cores&quot;,
+</code></pre>
+
+<pre><code>## Loading required package: multicore
+</code></pre>
+
+<pre><code>## Attaching package: &#39;multicore&#39;
+</code></pre>
+
+<pre><code>## The following object(s) are masked from &#39;package:tools&#39;:
+## 
+## SIGCHLD, SIGSTOP, SIGUSR1, SIGUSR2
+</code></pre>
+
+<pre><code class="r">cat(sprintf(&quot;Multicore functions running on maximum %d cores&quot;,
             ifelse(length(commandArgs(trailingOnly=TRUE)), 
                    cores &lt;- commandArgs(trailingOnly=TRUE)[1],
                    cores &lt;- 1)))
