@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://DASpringate.github.io/sitemap.xml 
