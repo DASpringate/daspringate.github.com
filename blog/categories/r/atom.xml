@@ -1,117 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE HTML>
-<html>
-<head>
-	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
-	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<meta charset="utf-8">
-	<title>Data, Stats & Code  | DataJujitsu</title>
+  <title><![CDATA[Category: R | DataJujitsu]]></title>
+  <link href="http://DASpringate.github.io/blog/categories/r/atom.xml" rel="self"/>
+  <link href="http://DASpringate.github.io/"/>
+  <updated>2014-06-05T13:10:33+01:00</updated>
+  <id>http://DASpringate.github.io/</id>
+  <author>
+    <name><![CDATA[David A Springate]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-<meta name="author" content="David A Springate"> 
-
-<meta name="description" content="This is my personal blog covering my interests in health informatics, coding and biostatistics."> <meta name="keywords" content="">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link href="/atom.xml" rel="alternate" title="DataJujitsu" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
-
-<script language="Javascript" type="text/javascript">
-$(document).ready(
-  function() {
-    (function($) {
-      $(".fancybox[data-content-id]").each(function() {
-        this.href = $(this).data('content-id');
-      });
-      $(".fancybox").fancybox({
-        beforeLoad: function() {
-          var el, 
-              id = $(this.element).data('title-id');
-
-          if (id) {
-            el = $('#' + id);
-
-            if (el.length) {
-              this.title = el.html();
-            }
-          }
-          if ($(this).data('content')) {
-            this.content = $(this).data('content');
-          }
-        },
-        helpers: {
-          title: {
-            type: 'inside'
-          }
-        }
-      });
-    })(jQuery);
-  }
-);
-</script>
-
-	
-</head>
-
-
-
-<body>
-	<header id="header" class="inner"><h1><a href="/">DataJujitsu</a></h1>
-<h4>Data, Stats & Code</h4>
-<nav id="main-nav"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/research">Research</a></li>
-	<li><a href="/software">Software</a></li>
-	<li><a href="/consulting">Consulting</a></li>
-	<li><a href="/archives">Archive</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/research">Research</a></li>
-	<li><a href="/software">Software</a></li>
-	<li><a href="/consulting">Consulting</a></li>
-	<li><a href="/archives">Archive</a></li>
-</ul>
-</div>
-	</div>
-	<div class="alignright search">
-		<a class="button"></a>
-		<div class="container">
-			<form action="https://www.google.com/search" method="get">
-				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:DASpringate.github.io">
-			</form>
-		</div>
-	</div>
-</nav>
-
-
-</header>
-
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/01/31/book-review-machine-learning-with-r/">
-		
-			Book Review: Machine Learning With R</a>
-	</h2>
-	<div class="entry-content">
-		<p>Machine Learning with R by Brett Lantz</p>
+  
+  <entry>
+    <title type="html"><![CDATA[Book review: Machine Learning with R]]></title>
+    <link href="http://DASpringate.github.io/blog/2014/01/31/book-review-machine-learning-with-r/"/>
+    <updated>2014-01-31T14:17:41+00:00</updated>
+    <id>http://DASpringate.github.io/blog/2014/01/31/book-review-machine-learning-with-r</id>
+    <content type="html"><![CDATA[<p>Machine Learning with R by Brett Lantz</p>
 
 <p>[Full disclosure &ndash; I was given a free review copy of the book from the publisher.  This review refers to the ebook version]</p>
 
@@ -130,50 +37,15 @@ $(document).ready(
 <p>Obviously, the book cannot cover everything.  It is decidedly light on graphs and has almost nothing on visualisation techniques and packages like ggplot2 which have become almost mandatory for doing data science today. Also, if you are new to R, you really want to get one of the excellent introductory books first and if you are new to ML, you probably want to spend a while learning some basic stats as well.  Finally, this book doesn&rsquo;t pretend to be a deep text about the mathematics of the algorithms it covers.  For that you will need to go for something like Bishop&rsquo;s classic &lsquo;Pattern Recognition and Machine Learning&rsquo; and be prepared to put in some serious effort!</p>
 
 <p>In short, if you are looking for a practical guide to implementing ML algorithms on real data and if you are more comfortable thinking in R code than in mathematical equations, this is the book for you and is the best that I have seen on the subject so far.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2014-01-31T14:17:41+00:00" pubdate data-updated="true">Jan 31<span>st</span>, 2014</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/ml/'>ML</a>, <a class='category' href='/blog/categories/r/'>R</a>, <a class='category' href='/blog/categories/reviews/'>Reviews</a>
-
-</div>
-
-
-	
-		<span class="comments"><a href="/blog/2014/01/31/book-review-machine-learning-with-r//index.html#disqus_thread">Comments</a></span>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/05/31/mapping-academic-collaborations-in-evolutionary-biology/">
-		
-			Mapping Academic Collaborations in Evolutionary Biology</a>
-	</h2>
-	<div class="entry-content">
-		<p><em>This post is a republication of a visualisation I did in 2011 for my (now defunct) datajujitsu.co.uk blog.  It was a naive first attempt at web-scraping from an academic publishers website.  It was done before I was aware of the problems surrounding access to, and text-mining of, online academic content hosted by publishers such as Wiley and Elsevier. Producing such a piece now (in 2013) would certainly be regarded as a political act. The text and visualisations are unchanged from the original</em></p>
+  <entry>
+    <title type="html"><![CDATA[Mapping academic collaborations in Evolutionary Biology]]></title>
+    <link href="http://DASpringate.github.io/blog/2013/05/31/mapping-academic-collaborations-in-evolutionary-biology/"/>
+    <updated>2013-05-31T15:16:44+01:00</updated>
+    <id>http://DASpringate.github.io/blog/2013/05/31/mapping-academic-collaborations-in-evolutionary-biology</id>
+    <content type="html"><![CDATA[<p><em>This post is a republication of a visualisation I did in 2011 for my (now defunct) datajujitsu.co.uk blog.  It was a naive first attempt at web-scraping from an academic publishers website.  It was done before I was aware of the problems surrounding access to, and text-mining of, online academic content hosted by publishers such as Wiley and Elsevier. Producing such a piece now (in 2013) would certainly be regarded as a political act. The text and visualisations are unchanged from the original</em></p>
 
 <p>Like many people, I was immensely impressed with Paul Butler&rsquo;s <a href="http://paulbutler.org/archives/visualizing-facebook-friends/">global map of facebook friend connections</a>, a spectacular way of visualising, and humanising, a large amount of raw data.
 I was further impressed to find out that he did it solely using R. I recently found Flowingdata&rsquo;s <a href="http://flowingdata.com/2011/05/11/how-to-map-connections-with-great-circles/">tutorial</a> on creating the same effect using flight information and got to thinking about what other datasets I could apply it to.
@@ -185,139 +57,94 @@ I then fed this data into R, generated great circles for each of the collaborati
 <p>You can clearly see the main hubs of collaboration in Europe and the East and West coasts of the USA, with smaller hubs in Japan and South-Eastern Australia. There are further actively collaborating institutions in South America and Africa, but almost all of their collaborations are with North american and European Universities. Looking into the data itself, the median longitude for JEB institutions is firmly in Europe, while the median longitude for Evolution in the USA (This makes sense since Evolution is based in the states while JEB is a European journal, though there is no geographic imperative to publish in either).
 Technical info:
 I scraped the data from the Wiley website for the two journals using Python and BeautifulSoup. For the R analysis I used the modules maps, geosphere, reshape and gdata.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2013-05-31T15:16:44+01:00" pubdate data-updated="true">May 31<span>st</span>, 2013</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/python/'>Python</a>, <a class='category' href='/blog/categories/r/'>R</a>
-
-</div>
-
-
-	
-		<span class="comments"><a href="/blog/2013/05/31/mapping-academic-collaborations-in-evolutionary-biology//index.html#disqus_thread">Comments</a></span>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/05/24/develop-in-rstudio/">
-		
-			Develop in RStudio, Run in RScript</a>
-	</h2>
-	<div class="entry-content">
-		<p>I have been using RStudio Server for a few months now and am finding it a great tool for R development.  The web interface is superb and behaves in almost exactly the same way as the desktop version.  However, I do have one gripe which has forced me to change my working practices slightly &ndash; It is really difficult to crash out of a frozen process.  Whereas in Console R, I could just hit Control-D to get out and back to Bash, in RStudio, while you can use the escape key to terminate an operation, if you have a big process going on everything just freezes and you can&rsquo;t do anything.  One way to deal with this is to kill the rstudio process in another terminal, but this kills the whole session, including the editor, and you will lose anything you haven&rsquo;t saved in your scripts.  This problem is exacerbated when I am trying to use run parallel processes using the <code>Multicore</code> package, because it takes an age to kill all of the extra forks first.</p>
+  <entry>
+    <title type="html"><![CDATA[Develop in RStudio, run in RScript]]></title>
+    <link href="http://DASpringate.github.io/blog/2013/05/24/develop-in-rstudio/"/>
+    <updated>2013-05-24T15:15:11+01:00</updated>
+    <id>http://DASpringate.github.io/blog/2013/05/24/develop-in-rstudio</id>
+    <content type="html"><![CDATA[<p>I have been using RStudio Server for a few months now and am finding it a great tool for R development.  The web interface is superb and behaves in almost exactly the same way as the desktop version.  However, I do have one gripe which has forced me to change my working practices slightly &ndash; It is really difficult to crash out of a frozen process.  Whereas in Console R, I could just hit Control-D to get out and back to Bash, in RStudio, while you can use the escape key to terminate an operation, if you have a big process going on everything just freezes and you can&rsquo;t do anything.  One way to deal with this is to kill the rstudio process in another terminal, but this kills the whole session, including the editor, and you will lose anything you haven&rsquo;t saved in your scripts.  This problem is exacerbated when I am trying to use run parallel processes using the <code>Multicore</code> package, because it takes an age to kill all of the extra forks first.</p>
 
 <p>So, now I use RStudio for development and testing and run my final analysis scripts directly using Rscript.  I have this line of code at the start of my scripts&hellip;</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'>require<span class="p">(</span>multicore<span class="p">)</span>
-</span><span class='line'>cat<span class="p">(</span>sprintf<span class="p">(</span><span class="s">&quot;Multicore functions running on maximum %d cores&quot;</span><span class="p">,</span>
-</span><span class='line'>            ifelse<span class="p">(</span>length<span class="p">(</span>commandArgs<span class="p">(</span>trailingOnly<span class="o">=</span><span class="kc">TRUE</span><span class="p">)),</span>
-</span><span class='line'>                   cores <span class="o">&lt;-</span> commandArgs<span class="p">(</span>trailingOnly<span class="o">=</span><span class="kc">TRUE</span><span class="p">)[</span><span class="m">1</span><span class="p">],</span>
-</span><span class='line'>                   cores <span class="o">&lt;-</span> <span class="m">1</span><span class="p">)))</span>
-</span></code></pre></td></tr></table></div></figure>
+<p>```r
+require(multicore)
+cat(sprintf(&ldquo;Multicore functions running on maximum %d cores&rdquo;,</p>
 
+<pre><code>        ifelse(length(commandArgs(trailingOnly=TRUE)), 
+               cores &lt;- commandArgs(trailingOnly=TRUE)[1],
+               cores &lt;- 1)))
+</code></pre>
 
+<p>```</p>
 
+<p>```</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="c1">## Multicore functions running on maximum 1 cores</span>
-</span></code></pre></td></tr></table></div></figure>
+<h2>Multicore functions running on maximum 1 cores</h2>
 
+<p>```</p>
 
 <p>&hellip; so when I am testing in Rstudio, cores is set to 1, but when I run as an Rscript, I can specify how many cores I want to use.  I then just add <code>mc.cores = cores</code> to all of my <code>mclapply</code> calls like this:</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="c1"># Example processor hungry multicore operation</span>
-</span><span class='line'>mats <span class="o">&lt;-</span> mclapply<span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">500</span><span class="p">,</span>
-</span><span class='line'>                 <span class="kr">function</span><span class="p">(</span>x<span class="p">)</span> matrix<span class="p">(</span>rnorm<span class="p">(</span>x<span class="o">*</span>x<span class="p">),</span>
-</span><span class='line'>                                    ncol <span class="o">=</span> x<span class="p">)</span> <span class="o">%*%</span> matrix<span class="p">(</span>rnorm<span class="p">(</span>x<span class="o">*</span>x<span class="p">),</span>
-</span><span class='line'>                                                         ncol <span class="o">=</span> x<span class="p">),</span>
-</span><span class='line'>                 mc.cores <span class="o">=</span> cores<span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
+<p>```r</p>
 
+<h1>Example processor hungry multicore operation</h1>
+
+<p>mats &lt;&ndash; mclapply(1:500,</p>
+
+<pre><code>             function(x) matrix(rnorm(x*x), 
+                                ncol = x) %*% matrix(rnorm(x*x), 
+                                                     ncol = x), 
+             mc.cores = cores)
+</code></pre>
+
+<p>```</p>
 
 <p>The advantage of this is that, when <code>mc.cores</code> are set to 1, <code>mclapply</code> just calls lapply which is easier to crash out of (try running the above code with cores set to more than 1 to see what I mean. It will hang for a lot longer) and produces more useful error messages:</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="c1"># Error handling with typos:</span>
-</span><span class='line'><span class="c1"># mcapply:</span>
-</span><span class='line'>mats <span class="o">&lt;-</span> mclapply<span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">500</span><span class="p">,</span>
-</span><span class='line'>                 <span class="kr">function</span><span class="p">(</span>x<span class="p">)</span> matrix<span class="p">(</span>rnor<span class="p">(</span>x<span class="o">*</span>x<span class="p">),</span>
-</span><span class='line'>                                    ncol <span class="o">=</span> x<span class="p">)</span> <span class="o">%*%</span> matrix<span class="p">(</span>rnorm<span class="p">(</span>x<span class="o">*</span>x<span class="p">),</span>
-</span><span class='line'>                                                         ncol <span class="o">=</span> x<span class="p">),</span>
-</span><span class='line'>                 mc.cores <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
+<p>```r</p>
 
+<h1>Error handling with typos:</h1>
 
+<h1>mcapply:</h1>
 
+<p>mats &lt;&ndash; mclapply(1:500,</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="c1">## Warning: all scheduled cores encountered errors in user code</span>
-</span></code></pre></td></tr></table></div></figure>
+<pre><code>             function(x) matrix(rnor(x*x), 
+                                ncol = x) %*% matrix(rnorm(x*x), 
+                                                     ncol = x), 
+             mc.cores = 2)
+</code></pre>
 
+<p>```</p>
 
+<p>```</p>
 
+<h2>Warning: all scheduled cores encountered errors in user code</h2>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="c1"># Falls back to lapply with 1 core:</span>
-</span><span class='line'>mats <span class="o">&lt;-</span> mclapply<span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">500</span><span class="p">,</span>
-</span><span class='line'>                 <span class="kr">function</span><span class="p">(</span>x<span class="p">)</span> matrix<span class="p">(</span>rnor<span class="p">(</span>x<span class="o">*</span>x<span class="p">),</span>
-</span><span class='line'>                                    ncol <span class="o">=</span> x<span class="p">)</span> <span class="o">%*%</span> matrix<span class="p">(</span>rnorm<span class="p">(</span>x<span class="o">*</span>x<span class="p">),</span>
-</span><span class='line'>                                                         ncol <span class="o">=</span> x<span class="p">),</span>
-</span><span class='line'>                 mc.cores <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
+<p>```</p>
 
+<p>```r</p>
 
+<h1>Falls back to lapply with 1 core:</h1>
 
+<p>mats &lt;&ndash; mclapply(1:500,</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="c1">## Error: could not find function &quot;rnor&quot;</span>
-</span></code></pre></td></tr></table></div></figure>
+<pre><code>             function(x) matrix(rnor(x*x), 
+                                ncol = x) %*% matrix(rnorm(x*x), 
+                                                     ncol = x), 
+             mc.cores = 1)
+</code></pre>
 
+<p>```</p>
+
+<p>```</p>
+
+<h2>Error: could not find function &ldquo;rnor&rdquo;</h2>
+
+<p>```</p>
 
 <p>Running final analysis scripts has these advantages:</p>
 
@@ -332,65 +159,28 @@ I scraped the data from the Wiley website for the two journals using Python and 
 
 <p>If you have a bunch of R scripts that might each take hours to run, you don&rsquo;t want to clog up your RStudio console with them. This is a useful command to effectively run a big R analysis script in the background via Rscript.  It should work equally well for Linux and Mac:</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="o">$</span> Rscript <span class="o">--</span>vanilla R<span class="o">/</span>myscript.R <span class="m">12</span> <span class="o">&amp;&gt;</span> logs<span class="o">/</span>myscript.log <span class="o">&amp;</span>
-</span></code></pre></td></tr></table></div></figure>
-
+<p><code>
+$ Rscript --vanilla R/myscript.R 12 &amp;&gt; logs/myscript.log &amp;
+</code></p>
 
 <p><code>Rscript</code> runs the .R file as a standalone script, without going into the R environment.  The <code>--vanilla</code> flag means that you run the script without calling in your .Rprofile (which is typically set up for interactive use) and without prompting you to save a workspace image. I always run the Rscript from the save level to that which is set as the project root for Rstudio to avoid any problems because of relative paths being set up wrongly. The number after the .R file to be run is the number of cores you want to run the parallel stuff on.  Other arguments you may want to pass to R would also go here. the <code>&amp;&gt;</code> operator redirects both the stdin and stderror to the file logs/myscript.log (I always set up a logs directory in my R projects for this purpose). The <code>&amp;</code> at the end runs the process in the background, so you get your bash prompt back while it is running.  Then if you want to check the progress of your script, just type:</p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='r'><span class='line'><span class="o">$</span> tail <span class="o">-</span>f logs<span class="o">/</span>myscript.log
-</span></code></pre></td></tr></table></div></figure>
-
+<p><code>
+$ tail -f logs/myscript.log
+</code></p>
 
 <p>And you can watch the output of your script in real time. Hit Control-C to get back to your command prompt.  You can also use the <code>top</code> command to keep an eye on your processor usage.</p>
 
 <p>If you want to kill your script, either find the PID number associated with your process in <code>top</code> and do <code>kill PIDNUMBER</code> or, if you are lazy/carefree, type <code>killall R</code> to kill any running R processes.  This will not affect your rstudio instance.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2013-05-24T15:15:11+01:00" pubdate data-updated="true">May 24<span>th</span>, 2013</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/r/'>R</a>, <a class='category' href='/blog/categories/rstudio/'>RStudio</a>, <a class='category' href='/blog/categories/multicore/'>multicore</a>
-
-</div>
-
-
-	
-		<span class="comments"><a href="/blog/2013/05/24/develop-in-rstudio//index.html#disqus_thread">Comments</a></span>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/05/16/functional-programming-in-r/">
-		
-			Functional Programming in R</a>
-	</h2>
-	<div class="entry-content">
-		<p><em>This post is based on a talk I gave at the <a href="http://www.meetup.com/Manchester-R/">Manchester R User Group</a> on functional programming in R on May 2nd 2013.  The original slides can be found <a href="http://www.slideshare.net/DASpringate/functional-programming-in-r">here</a></em></p>
+  <entry>
+    <title type="html"><![CDATA[Functional programming in R]]></title>
+    <link href="http://DASpringate.github.io/blog/2013/05/16/functional-programming-in-r/"/>
+    <updated>2013-05-16T13:02:30+01:00</updated>
+    <id>http://DASpringate.github.io/blog/2013/05/16/functional-programming-in-r</id>
+    <content type="html"><![CDATA[<p><em>This post is based on a talk I gave at the <a href="http://www.meetup.com/Manchester-R/">Manchester R User Group</a> on functional programming in R on May 2nd 2013.  The original slides can be found <a href="http://www.slideshare.net/DASpringate/functional-programming-in-r">here</a></em></p>
 
 <p>This post is about functional programming, why it is at the heart of the R language and how it can hopefully help you to write cleaner, faster and more bug-free R programs.
 I will discuss what functional programming is at a very abstract level as a means of the representation of some simplified model of reality on a computer.  Then I&rsquo;ll talk about the elements that functional programming is comprised of and highlight the most important elements in programming in R.  I will then go through a quick example demo of a FP-style generic bootstrap algorithm to sample linear models and return bootstrap confidence intervals.  I&rsquo;ll compare this with a non-FP alternative version so you will hopefully clearly  see the advantages of using an FP style.  To wrap up, I&rsquo;ll make a few suggestions for places to go to if you want to learn more about functional programming in R.</p>
@@ -429,36 +219,46 @@ I will discuss what functional programming is at a very abstract level as a mean
 
 <p>In FP, naming and applying a function are two separate operations, you don&rsquo;t need to give your functions names in order to call them. So, calling this function:</p>
 
-<div>
-  <pre><code class='R'>powfun &lt;- function(x, pow) {
-    x^pow
-}
+<p><div>
+  <pre><code class='R'>powfun &amp;lt;&amp;ndash; function(x, pow) {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;x^pow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}
 powfun(2, 10)</code></pre>
 </div>
+</p>
 
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;h2&gt;[1] 1024&lt;/h2&gt;
 
-
-<div>
-  <pre><code class='R'>## [1] 1024</code></pre>
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>to the interpreter is exactly the same as applying variables to the anonymous function:</p>
 
-<div>
-  <pre><code class='R'>(function(x, pow) {
-    x^pow
-})(2, 10)</code></pre>
+<p><div>
+  <pre><code class='R'>(function(x, pow) {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;x^pow
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;})(2, 10)</code></pre>
 </div>
+</p>
 
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;h2&gt;[1] 1024&lt;/h2&gt;
 
-
-<div>
-  <pre><code class='R'>## [1] 1024</code></pre>
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>This is particularly useful when you are building small, single use functions such as those used as arguments in higher order functions such as <code>lapply</code>.</p>
 
@@ -480,59 +280,75 @@ powfun(2, 10)</code></pre>
 
 <p>To show just how functional a language is at its core, it is first important to recognise that everything in R is a function call, even if it looks like it isn&rsquo;t. So,</p>
 
-<div>
-  <pre><code class='R'>&gt; 1 + 2</code></pre>
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;1 + 2</code></pre>
 </div>
+</p></blockquote>
 
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;h2&gt;[1] 3&lt;/h2&gt;
 
-
-<div>
-  <pre><code class='R'>## [1] 3</code></pre>
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>&hellip; is exactly the same as&hellip;</p>
 
-<div>
-  <pre><code class='R'>&gt; `+`(1, 2)</code></pre>
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;+&lt;/code&gt;(1, 2)</code></pre>
 </div>
+</p></blockquote>
 
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;h2&gt;[1] 3&lt;/h2&gt;
 
-
-<div>
-  <pre><code class='R'>## [1] 3</code></pre>
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>The <code>+</code> operator is really just &ldquo;syntactic sugar&rdquo; for a <code>+</code> function with the arguments 1 and 2 applied to it. Similarly,</p>
 
-<div>
-  <pre><code class='R'>&gt; 1:10</code></pre>
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;1:10</code></pre>
 </div>
+</p></blockquote>
 
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;h2&gt;[1]  1  2  3  4  5  6  7  8  9 10&lt;/h2&gt;
 
-
-<div>
-  <pre><code class='R'>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>&hellip; is the same as&hellip;</p>
 
-<div>
-  <pre><code class='R'>&gt; `:`(1, 10)</code></pre>
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;:&lt;/code&gt;(1, 10)</code></pre>
 </div>
+</p></blockquote>
 
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;h2&gt;[1]  1  2  3  4  5  6  7  8  9 10&lt;/h2&gt;
 
-
-<div>
-  <pre><code class='R'>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>here again, to give the range of numbers between 1 and 10, <code>:</code> is really just a function in disguise.  If you were to break down more complex expressions in this way, the result would be code that looks very Scheme-like indeed.</p>
 
@@ -544,28 +360,38 @@ powfun(2, 10)</code></pre>
 
 <p>For example, when I was first using R for data management and analysis, I spent months writing code like this:</p>
 
-<div>
-  <pre><code class='R'>&gt; # Get all even numbers up to 200000
-&gt; # using S-style vector allocation:
-&gt; x &lt;- c()
-&gt; for(i in 1:200000){
-&gt;     if(i %% 2 == 0){
-&gt;         x &lt;- c(x, i)
-&gt;     }
-&gt; }</code></pre>
-</div>
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;blockquote&gt;&lt;h1&gt;Get all even numbers up to 200000&lt;/h1&gt;
+
+&lt;h1&gt;using S-style vector allocation:&lt;/h1&gt;
+
+&lt;p&gt;x &amp;lt;&amp;ndash; c()
+for(i in 1:200000){&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if(i %% 2 == 0){
+    x &amp;lt;- c(x, i)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}</code></pre>
+</div>
+</p></blockquote>
 
 <p>This is about the worst possible way of achieving the given task (here, getting all even numbers up to 200000).  You are running a <code>for</code> loop, which is slow in itself, and testing if <code>i</code> is even on each iteration and then growing the <code>x</code> vector every time you find that it is.  The code is ugly, slow and verbose (On my machine it took around 10 seconds).</p>
 
 <p>For me, writing vectorised code was a real revelation.  To achieve the same goal as the code above in a vectorised style:</p>
 
-<div>
-  <pre><code class='R'>&gt; # FP style vectorised operation
-&gt; a &lt;- 1:200000
-&gt; x &lt;- a[a %% 2 == 0]</code></pre>
-</div>
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;blockquote&gt;&lt;h1&gt;FP style vectorised operation&lt;/h1&gt;
+
+&lt;p&gt;a &amp;lt;&amp;ndash; 1:200000
+x &amp;lt;&amp;ndash; a[a %% 2 == 0]</code></pre>
+</div>
+</p></blockquote>
 
 <p>You assign a vector with all the values from 1 t0 200000, then you say &ldquo;I want all of these that are divisible by two&rdquo;.  This ran 3 orders of magnitude faster than the non-FP code, is half the length and clearer &ndash; you don&rsquo;t have to mentally run through the loop in order to work out what it does.  So you get the benefits of both concision (Number of bugs correlate well with lines of code) and clarity (The code becomes almost self-documenting).</p>
 
@@ -601,95 +427,135 @@ powfun(2, 10)</code></pre>
 
 <p>To demonstrate the usefulness of this, I am now going to build a generic bootstrapping algorithm in a functional style that can be applied to any linear model.  It will demonstrate not only functions returning functions, but higher-order functions (in this case, <code>sapply</code>), anonymous functions (in the mapping function to <code>sapply</code>) and vectorised functions.  I will then compare this against a non-FP version of the algorithm and hopefully some of the advantages of writing in an FP style in R will become clear.  Here is the code. I am doing a bootstrap of a simple linear model on the classic <code>iris</code> dataset:</p>
 
-<div>
-  <pre><code class='R'>boot.lm &lt;- function(formula, data, ...){
-  function(){
-    lm(formula=formula, 
-       data=data[sample(nrow(data), replace=TRUE),], ...)
-  }
-}
+<p><div>
+  <pre><code class='R'>boot.lm &amp;lt;&amp;ndash; function(formula, data, &amp;hellip;){
+  function(){&lt;/p&gt;
 
-iris.boot &lt;- boot.lm(Sepal.Length ~ Petal.Length, iris)
-bstrap &lt;- sapply(X=1:1000, 
-                 FUN=function(x) iris.boot()$coef)</code></pre>
+&lt;pre&gt;&lt;code&gt;lm(formula=formula, 
+   data=data[sample(nrow(data), replace=TRUE),], ...)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  }
+}&lt;/p&gt;
+
+&lt;p&gt;iris.boot &amp;lt;&amp;ndash; boot.lm(Sepal.Length ~ Petal.Length, iris)
+bstrap &amp;lt;&amp;ndash; sapply(X=1:1000,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;             FUN=function(x) iris.boot()$coef)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>That is the algorithm. The boot.lm function returns a closure.  You pass it a linear model formula and a dataframe and it returns a function with no arguments that itself returns a linear model object of a bootstrapped replicate (sample with replacement) of the supplied data.  So, the iris.boot function takes the formula of Sepal.Length~Petal.Length and the iris dataset and every time you call it it gives a new bootstrap replicate of that model on that data.  You then just need to run this 1000 times and collect the coefficients, which can be done with a one-liner sapply call.  We are using sapply because we want a matrix of coefficients with one line per replicate. The <code>FUN</code> argument to <code>sapply</code> is an anonymous function that returns the coefficients of the function.  You could have equally well have written something like</p>
 
-<div>
-  <pre><code class='R'>get.coefs &lt;- function(x){
-    iris.boot$coef
-}
+<p><div>
+  <pre><code class='R'>get.coefs &amp;lt;&amp;ndash; function(x){&lt;/p&gt;
 
-bstrap &lt;- sapply(X=1:1000, 
-                 FUN=get.coefs)</code></pre>
+&lt;pre&gt;&lt;code&gt;iris.boot$coef
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;bstrap &amp;lt;&amp;ndash; sapply(X=1:1000,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;             FUN=get.coefs)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>&hellip; but because the function is so short, it is no less clear to include it without a name.</p>
 
 <p>Once the model has run, we can use the <code>apply</code> higher-order function to summarise the rows of <code>bstrap</code> by applying the <code>quantile</code> function to give the median and 95% confidence intervals:</p>
 
-<div>
-  <pre><code class='R'>apply(bstrap, MARGIN=1, FUN=quantile, 
-      probs=c(0.025, 0.5, 0.975))</code></pre>
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
+
+&lt;p&gt;apply(bstrap, MARGIN=1, FUN=quantile,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  probs=c(0.025, 0.5, 0.975))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;</code></pre>
 </div>
+</p>
 
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;h2&gt;(Intercept) Petal.Length&lt;/h2&gt;
 
+&lt;h2&gt;2.5%        4.162       0.3701&lt;/h2&gt;
 
-<div>
-  <pre><code class='R'>##       (Intercept) Petal.Length
-## 2.5%        4.162       0.3701
-## 50%         4.304       0.4098
-## 97.5%       4.448       0.4472</code></pre>
+&lt;h2&gt;50%         4.304       0.4098&lt;/h2&gt;
+
+&lt;h2&gt;97.5%       4.448       0.4472&lt;/h2&gt;
+
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>This is an elegant way to solve a common analysis problem in R.  If you are running a large model and you want to speed things up (and you have a few cores free!), it is a simple task and a couple of lines of code to replace the call to <code>sapply</code> to one to <code>multicore::mclapply</code> and run the model on as many processor cores as you can.</p>
 
 <p>In contrast, here is a roughly equivalent non-FP style bootstrapping algorithm:</p>
 
-<div>
-  <pre><code class='R'>boot_lm_nf &lt;- function(d, form, iters, output, ...){
-  for(i in 1:iters){
-    x &lt;- lm(formula=form, 
-            data=d[sample(nrow(d),
-                   replace = TRUE),], ...)[[output]]
-    if(i == 1){
-      bootstrap &lt;- matrix(data=NA, nrow=iters, 
-                    ncol=length(x), 
-                    dimnames=list(NULL,names(x)))
-      bootstrap[i,] &lt;- x
-    } else bootstrap[i,] &lt;- x
-  }
+<p><div>
+  <pre><code class='R'>boot_lm_nf &amp;lt;&amp;ndash; function(d, form, iters, output, &amp;hellip;){
+  for(i in 1:iters){&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;x &amp;lt;- lm(formula=form, 
+        data=d[sample(nrow(d),
+               replace = TRUE),], ...)[[output]]
+if(i == 1){
+  bootstrap &amp;lt;- matrix(data=NA, nrow=iters, 
+                ncol=length(x), 
+                dimnames=list(NULL,names(x)))
+  bootstrap[i,] &amp;lt;- x
+} else bootstrap[i,] &amp;lt;- x
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  }
   bootstrap
 }</code></pre>
 </div>
-
+</p>
 
 <p>This ugly beast is full of <code>for</code>s and <code>if</code>s and braces and brackets and double brackets.  It has a load of extra boilerplate code to define the variables and fill the matrices.  Plus, it is less generic than the FP version since you can only output the attributes of the model itself, whereas previously we could apply any function we like in place of the anonymous function in the <code>sapply</code> call.  It is more than twice as verbose and impossible to multicore without a complete rewrite.  On top of all that, getting the coefficients out in a non-FP way is a tedious task:</p>
 
-<div>
-  <pre><code class='R'>bstrap2 &lt;- boot_lm_nf(d=iris, 
-            form=Sepal.Length ~ Petal.Length, 
-            iters=1000, output=&quot;coefficients&quot;)
-CIs &lt;- c(0.025, 0.5, 0.975)
-cbind( &quot;(Intercept)&quot;=quantile(bstrap2[,1],probs = CIs),
-      &quot;Petal.Length&quot;=quantile(bstrap2[,2],probs = CIs))</code></pre>
+<p><div>
+  <pre><code class='R'>bstrap2 &amp;lt;&amp;ndash; boot_lm_nf(d=iris,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        form=Sepal.Length ~ Petal.Length, 
+        iters=1000, output=&quot;coefficients&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;CIs &amp;lt;&amp;ndash; c(0.025, 0.5, 0.975)
+cbind( &amp;ldquo;(Intercept)&amp;rdquo;=quantile(bstrap2[,1],probs = CIs),&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  &quot;Petal.Length&quot;=quantile(bstrap2[,2],probs = CIs))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;</code></pre>
 </div>
+</p>
 
+<p><div>
+  <pre><code class='R'>&lt;/p&gt;
 
+&lt;h2&gt;(Intercept) Petal.Length&lt;/h2&gt;
 
+&lt;h2&gt;2.5%        4.169       0.3699&lt;/h2&gt;
 
-<div>
-  <pre><code class='R'>##       (Intercept) Petal.Length
-## 2.5%        4.169       0.3699
-## 50%         4.310       0.4081
-## 97.5%       4.448       0.4414</code></pre>
+&lt;h2&gt;50%         4.310       0.4081&lt;/h2&gt;
+
+&lt;h2&gt;97.5%       4.448       0.4414&lt;/h2&gt;
+
+&lt;p&gt;</code></pre>
 </div>
-
+</p>
 
 <p>The code duplication in the <code>cbind</code> is a pain, as is having to name the coefficients directly.  Both of these reduce the generalisability of the algorithm.</p>
 
@@ -718,50 +584,15 @@ cbind( &quot;(Intercept)&quot;=quantile(bstrap2[,1],probs = CIs),
 <li>If you are intersted in the metaphysical stuff at the start of this post, Rich Hickey, the inventor of the Clojure language give <a href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">this</a> great talk on the importance of FP and the failings of the traditional OOP model.  The talk was also summarised nicely in <a href="http://www.flyingmachinestudios.com/programming/the-unofficial-guide-to-rich-hickeys-brain/">this</a> blog post.</li>
 </ul>
 
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2013-05-16T13:02:30+01:00" pubdate data-updated="true">May 16<span>th</span>, 2013</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/fp/'>FP</a>, <a class='category' href='/blog/categories/lisp/'>Lisp</a>, <a class='category' href='/blog/categories/r/'>R</a>
-
-</div>
-
-
-	
-		<span class="comments"><a href="/blog/2013/05/16/functional-programming-in-r//index.html#disqus_thread">Comments</a></span>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/04/16/two-r-tutorials-for-beginners/">
-		
-			Two R Tutorials for Beginners</a>
-	</h2>
-	<div class="entry-content">
-		<p>I am currently in the process of rescuing some of the pages from my now defunct datajujitsu.co.uk blogger blog and moving here.  I also today gave a tutorial to the University of Manchester on data cleaning and subsetting, so I am killing two birds with one stone by linking to the <a href="http://rpubs.com/">Rpubs</a> pages for both this and a short tutorial I gave last year on vectorisation.</p>
+  <entry>
+    <title type="html"><![CDATA[Two R Tutorials for beginners]]></title>
+    <link href="http://DASpringate.github.io/blog/2013/04/16/two-r-tutorials-for-beginners/"/>
+    <updated>2013-04-16T12:57:00+01:00</updated>
+    <id>http://DASpringate.github.io/blog/2013/04/16/two-r-tutorials-for-beginners</id>
+    <content type="html"><![CDATA[<p>I am currently in the process of rescuing some of the pages from my now defunct datajujitsu.co.uk blogger blog and moving here.  I also today gave a tutorial to the University of Manchester on data cleaning and subsetting, so I am killing two birds with one stone by linking to the <a href="http://rpubs.com/">Rpubs</a> pages for both this and a short tutorial I gave last year on vectorisation.</p>
 
 <p>The tutorials are:</p>
 
@@ -776,145 +607,7 @@ cbind( &quot;(Intercept)&quot;=quantile(bstrap2[,1],probs = CIs),
 <p>Using R Markdown, Knitr, RStudio and Rpubs to produce and publish tutorials has proved a complete joy.  It is simple, quick and painless to get pages online with embedded R code and output.</p>
 
 <p>I have also produced a slide presentation for an internal seminar series in my department using R Markdown, Knitr, Pandoc and Beamer. I was really pleased with the results (Which are also on my <a href="https://github.com/DASpringate/tutorials/tree/master/Primary_Care_Databases/March_2013">github page</a>) and how easily I was able to achieve them, particularly with  the huge reduction of Latex boilerplate I was forced to write.  I will be doing all of my presentations with this method in future and will blog about the workflow for doing so in due course.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2013-04-16T12:57:00+01:00" pubdate data-updated="true">Apr 16<span>th</span>, 2013</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/r/'>R</a>, <a class='category' href='/blog/categories/tutorials/'>Tutorials</a>
-
-</div>
-
-
-	
-		<span class="comments"><a href="/blog/2013/04/16/two-r-tutorials-for-beginners//index.html#disqus_thread">Comments</a></span>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/04/16/scraping-organism-metadata-for-treebase-repositories-from-gold-using-python-and-r/">
-		
-			Scraping Organism Metadata for Treebase Repositories From GOLD Using Python and R</a>
-	</h2>
-	<div class="entry-content">
-		<p>I recently wanted to get hold of habitat/phenotype/sequencing metadata for the individual organisms of  an archived <a href="http://treebase.org/treebase-web/home.html">Treebase</a> project.</p>
-
-<p>The <a href="http://www.genomesonline.org/">GOLD</a> database holds  more than 18000 full genomes.  For many of these it provides pretty good metadata (<a href="http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00536">GOLDcards</a>) which are indirectly linked  to Treebase via <a href="http://www.ncbi.nlm.nih.gov/taxonomy">NCBI</a> taxa <a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;amp;id=122368">IDs</a>.</p>
-
-<p>Unfortunately GOLD does not seem to have any kind of API for systematic downloads, so I hacked together a very <a href="https://gist.github.com/2929217">quick-and-dirty scraper</a> in Python that reads in taxa from a Treebase repo, follows the links to each species NCBI page and downloads the linked GOLDcard, if it exists.</p>
-
-<p>Here is the code. You will need the external BeautifulSoup and lxml libraries for this to work &ndash; both are fantastic. (The Treebase repo here is from Wu et al. 2009**, just change the url string for a different repo):</p>
-
-<p>Once you have downloaded all of the available files, It would be great to have your metadata in a nice flatfile with one line per taxa, right?  I did this with a little <a href="https://gist.github.com/2929366">R script</a> using the rather wonderful readHTMLtable() function in the XML (install.packages(&lsquo;XML&rsquo;)) package.</p>
-
-<p>The output is a semicolon separated file with taxa in the rows and the different categories of metadata in columns. The metadata is often fairly incomplete, and  there are plenty of omissions, but hopefully it will become more useful as more deposits are made to GOLD.</p>
-
-<p>** Wu D., Hugenholtz P., Mavromatis K., Pukall R., Dalin E., Ivanova N.N., Kunin V., Goodwin L., Wu M., Tindall B.J., Hooper S.D., Pati A., Lykidis A., Spring S., Anderson I.J., D&#8217;haeseleer P., Zemla A., Singer M., Lapidus A., Nolan M., Copeland A., Chen F., Cheng J., Lucas S., Kerfeld C., Lang E., Gronow S., Chain P., Bruce D., Rubin E.M., Kyrpides N.C., Klenk H., &amp; Eisen J.A. 2009. A phylogeny-driven genomic encyclopaedia of Bacteria and Archaea. Nature, 462(7276): 1056-1060.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-16T12:37:59+01:00" pubdate data-updated="true">Apr 16<span>th</span>, 2013</time></div>
-	
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/bioinformatics/'>Bioinformatics</a>, <a class='category' href='/blog/categories/python/'>Python</a>, <a class='category' href='/blog/categories/r/'>R</a>
-
-</div>
-
-
-	
-		<span class="comments"><a href="/blog/2013/04/16/scraping-organism-metadata-for-treebase-repositories-from-gold-using-python-and-r//index.html#disqus_thread">Comments</a></span>
-	
-</div></article>
-
-<nav id="pagenavi">
-    
-    
-    <div class="center"><a href="/archives">Blog Archives</a></div>
-</nav></div>
-	<footer id="footer" class="inner">Copyright &copy; 2014
-
-    David A Springate
-
-<br>
-Powered by Octopress.
-</footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
-
-
-<script type="text/javascript">
-      var disqus_shortname = 'daspringate';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-40926137-1']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-
-
-
-</body>
-</html>
+</feed>

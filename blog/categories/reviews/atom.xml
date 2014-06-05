@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Reviews | DataJujitsu]]></title>
+  <link href="http://DASpringate.github.io/blog/categories/reviews/atom.xml" rel="self"/>
+  <link href="http://DASpringate.github.io/"/>
+  <updated>2014-06-05T13:10:33+01:00</updated>
+  <id>http://DASpringate.github.io/</id>
+  <author>
+    <name><![CDATA[David A Springate]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Book review: Machine Learning with R]]></title>
+    <link href="http://DASpringate.github.io/blog/2014/01/31/book-review-machine-learning-with-r/"/>
+    <updated>2014-01-31T14:17:41+00:00</updated>
+    <id>http://DASpringate.github.io/blog/2014/01/31/book-review-machine-learning-with-r</id>
+    <content type="html"><![CDATA[<p>Machine Learning with R by Brett Lantz</p>
+
+<p>[Full disclosure &ndash; I was given a free review copy of the book from the publisher.  This review refers to the ebook version]</p>
+
+<p>This is the most recent of a group of books that try to explore machine learning from a programming, rather than purely mathematical, perspective. The book is highly successful in this respect and deserves a place on the bookshelf of any data scientist, Kaggler or statistician.</p>
+
+<p>The book takes a slightly different tack from previous ones in this field (See &lsquo;Programming Collective Intelligence&rsquo; and &lsquo;Machine learning for Hackers&rsquo;) in that it concentrates largely on the packages themselves and how to use them to solve real world ML problems, rather than focusing on coding up simple algorithms from scratch and running these on toy datasets.  Perhaps this way the book doesn&rsquo;t provide as much insight into how the algorithm design, but it does make the book much more practically useful, particularly since it spends a good chunk of each chapter explaining the algorithm in simple, plain English.</p>
+
+<p>The book is well laid out and written.  Despite a slightly shaky start (do we really still think of ML in terms of Skynet, the Matrix and Hal?), the introduction is excellent and gives a pleasing summary of the philosophical and ethical issues surrounding machine learning and big data. Next, there is a thoughtful introduction to data management and exploratory data analysis that highlights important and often missed tips on things like getting data out of SQL databases.  It introduces some basic R functions and concepts (some I had managed to miss up until now) without feeling like a tacked on &lsquo;R for beginners&rsquo; chapter.</p>
+
+<p>In the guts of the book, each chapter focuses on a group of related algorithms (KNN, Naive Bayes, Decision trees, Regression, Neural nets and SVMs, association rules, clustering) and has a good introduction to the algorithm in question, followed by sections on finding and cleaning data, implementing the algorithm on the data and evaluating and improving model performance. There are clear and easy to understand tables and descriptions of the important distinctions between the algorithms and the reasons for choosing one over another.  The datasets the author has chosen are large and interesting enough to well illustrate the points being made without being frustratingly unwieldy and many of them are &lsquo;classic&rsquo; machine learning datasets from places such as the UCI Machine Learning Data Repository.</p>
+
+<p>Next, the book looks more deeply at evaluating and improving model performance and discusses important ensemble and meta-learning techniques like bagging, boosting and RandomForests.  This section will be of particular interest to people wanting to enter Kaggle or other data science competitions because they show how to milk as much performance as possible from the basic algorithms described earlier in the book.</p>
+
+<p>The final section discusses getting the algorithms to run on big datasets and improving the performance of R itself using tricks like the data.table and ff packages and parallel processing.  This is the only section of the book that feels slightly rushed and many of these topics are discussed only briefly before linking to the relevant package documentation.  This is only small criticism though, since coding up these kinds of systems will depend strongly on the data you have and these are difficult subjects to cover whilst retaining generality.</p>
+
+<p>Obviously, the book cannot cover everything.  It is decidedly light on graphs and has almost nothing on visualisation techniques and packages like ggplot2 which have become almost mandatory for doing data science today. Also, if you are new to R, you really want to get one of the excellent introductory books first and if you are new to ML, you probably want to spend a while learning some basic stats as well.  Finally, this book doesn&rsquo;t pretend to be a deep text about the mathematics of the algorithms it covers.  For that you will need to go for something like Bishop&rsquo;s classic &lsquo;Pattern Recognition and Machine Learning&rsquo; and be prepared to put in some serious effort!</p>
+
+<p>In short, if you are looking for a practical guide to implementing ML algorithms on real data and if you are more comfortable thinking in R code than in mathematical equations, this is the book for you and is the best that I have seen on the subject so far.</p>
+]]></content>
+  </entry>
+  
+</feed>
