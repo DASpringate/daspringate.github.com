@@ -1,0 +1,8 @@
+<ul>
+	<li><a href="{{ root_url }}/">Blog</a></li>
+	<li><a href="{{ root_url }}/about">About</a></li>
+	<li><a href="{{ root_url }}/research">Research</a></li>
+	<li><a href="{{ root_url }}/research">Software</a></li>
+	<li><a href="{{ root_url }}/research">Consulting</a></li>
+	<li><a href="{{ root_url }}/archives">Archive</a></li>
+</ul>

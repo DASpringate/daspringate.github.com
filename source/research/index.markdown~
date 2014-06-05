@@ -1,0 +1,42 @@
+---
+layout: page
+title: "research"
+date: 2014-06-03 15:50
+comments: true
+sharing: true
+footer: true
+---
+
+## My Publications: [Google scholar](http://scholar.google.co.uk/citations?user=Llovsi8AAAAJ&hl=en)
+
+## Projects:
+
+### Informatics for more efficient research with primary care databases
+
+Routinely collected electronic medical record (EMR) databases are rich sources of data for health reearch. Although lacking the rigour of Randomised controlled trials (RCTs) and potentially affected by bias from uncontrolled factors, these databases allow the investigation of research questions which may not be feasible to address by other means.  For example, some population groups are often excluded from RCTs for ethical and other reasons (e.g. children, pregnant women, people with severe mental illness).  These groups, however will often receive these interventions in clinical practice.  Trials are in addition frequently insufficiently powered to study less common outcomes, e.g. mortality, or unintended beneficial or adverse effects of interventions and are often limited by short duration of follow up. These datasets are also increasingly used in health services research, particularly for investigating the impacts of nationally-implemented NHS policies where control groups are not possible.
+
+The UK leads the world in Primary care databases (PCDs), which collate data from the EMRs of patients registered with a large number of practices.  This project focuses on three problematic or under-developed aspects of PCD-based research:
+
+* Reducing duplication of effort - I am developing open source [software tools](https://github.com/rOpenHealth/rCPRD) to facilitate the manipulation and analysis of PCD data. 
+* Improving validity and reproducibility of clinical code lists -  I have built and am maintaining the [ClinicalCodes.org](http://www.clinicalcodes.org) online repository for clinical code lists.
+* Improving data quality - We are working on developing  methods to address missing data and outliers in complex and messy PCD datasets. 
+
+#### Publications:
+
+* Springate et al. (2014). ClinicalCodes: An online repository
+
+-------------------------------------
+
+### Validity of PCD effectiveness studies
+
+Evidence from Primary care databases (PCDs) is traditionally given less weight than evidence from bespoke cohort studies and RCTs.  The reasons for this include uncertainties areound issues of data quality, completeness and confounding factors.  In this project, we attempt to to establish the extent to which results derived from PCD studies are valid and reproducible.
+
+#### Publications:
+
+* blah
+
+--------------------------------------
+
+### An investigation of the NHS Quality and Outcomes Framework using the Clinical Practice Research Datalink
+
+In the UK, GPs are paid for treating patients with certain conditions according to clinical evidence in a large and expensive par-for-performance schem
