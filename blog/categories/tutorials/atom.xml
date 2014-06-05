@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tutorials | DataJujitsu]]></title>
+  <link href="http://DASpringate.github.io/blog/categories/tutorials/atom.xml" rel="self"/>
+  <link href="http://DASpringate.github.io/"/>
+  <updated>2014-06-05T13:40:57+01:00</updated>
+  <id>http://DASpringate.github.io/</id>
+  <author>
+    <name><![CDATA[David A Springate]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Two R Tutorials for beginners]]></title>
+    <link href="http://DASpringate.github.io/blog/2013/04/16/two-r-tutorials-for-beginners/"/>
+    <updated>2013-04-16T12:57:00+01:00</updated>
+    <id>http://DASpringate.github.io/blog/2013/04/16/two-r-tutorials-for-beginners</id>
+    <content type="html"><![CDATA[<p>I am currently in the process of rescuing some of the pages from my now defunct datajujitsu.co.uk blogger blog and moving here.  I also today gave a tutorial to the University of Manchester on data cleaning and subsetting, so I am killing two birds with one stone by linking to the <a href="http://rpubs.com/">Rpubs</a> pages for both this and a short tutorial I gave last year on vectorisation.</p>
+
+<p>The tutorials are:</p>
+
+<ol>
+<li><a href="http://rpubs.com/daspringate/subsetting">Subsetting in R: Spring cleaning your data</a></li>
+<li><a href="http://rpubs.com/daspringate/vectorisation">Speeding up your R code &ndash; vectorisation tricks for beginners</a></li>
+</ol>
+
+
+<p>The R markdown source file for both of these are available on <a href="https://github.com/DASpringate/tutorials">my github page</a>. Rpubs is a great site from the people behind RStudio that allows you to upload R markdown scripts compiled using Knitr in no time at all.</p>
+
+<p>Using R Markdown, Knitr, RStudio and Rpubs to produce and publish tutorials has proved a complete joy.  It is simple, quick and painless to get pages online with embedded R code and output.</p>
+
+<p>I have also produced a slide presentation for an internal seminar series in my department using R Markdown, Knitr, Pandoc and Beamer. I was really pleased with the results (Which are also on my <a href="https://github.com/DASpringate/tutorials/tree/master/Primary_Care_Databases/March_2013">github page</a>) and how easily I was able to achieve them, particularly with  the huge reduction of Latex boilerplate I was forced to write.  I will be doing all of my presentations with this method in future and will blog about the workflow for doing so in due course.</p>
+]]></content>
+  </entry>
+  
+</feed>
