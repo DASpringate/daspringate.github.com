@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Care.data could help avoid another pharma scandal"
+date: 2014-02-26 12:27:02 +0100
+comments: true
+categories: [caredata, EMRs]
+external-url: http://theconversation.com/health-database-could-help-avoid-another-pharma-scandal-23730
+---
+
+This is a post I wrote for [_The Conversation_](http://theconversation.com) on the problems with the new UK Care.data electronic medical record database.  The post was later taken up by BBC news and I appeared on the BBC1 Breakfast show for a televised debate with the GP Gordon Gantz on the benefits of a national medical record database.
