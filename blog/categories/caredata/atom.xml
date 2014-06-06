@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: caredata | DataJujitsu]]></title>
+  <link href="http://DASpringate.github.io/blog/categories/caredata/atom.xml" rel="self"/>
+  <link href="http://DASpringate.github.io/"/>
+  <updated>2014-06-06T13:32:17+01:00</updated>
+  <id>http://DASpringate.github.io/</id>
+  <author>
+    <name><![CDATA[David A Springate]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Care.data could help avoid another pharma scandal]]></title>
+    <link href="http://DASpringate.github.io/blog/2014/02/26/caredata/"/>
+    <updated>2014-02-26T11:27:02+00:00</updated>
+    <id>http://DASpringate.github.io/blog/2014/02/26/caredata</id>
+    <content type="html"><![CDATA[<p>This is a post I wrote for <a href="http://theconversation.com"><em>The Conversation</em></a> on the problems with the new UK Care.data electronic medical record database.  The post was later taken up by BBC news and I appeared on the BBC1 Breakfast show for a televised debate with the GP Gordon Gantz on the benefits of a national medical record database.</p>
+]]></content>
+  </entry>
+  
+</feed>

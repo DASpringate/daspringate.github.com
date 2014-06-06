@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rstats | DataJujitsu]]></title>
   <link href="http://DASpringate.github.io/blog/categories/rstats/atom.xml" rel="self"/>
   <link href="http://DASpringate.github.io/"/>
-  <updated>2014-06-06T11:46:49+01:00</updated>
+  <updated>2014-06-06T13:32:17+01:00</updated>
   <id>http://DASpringate.github.io/</id>
   <author>
     <name><![CDATA[David A Springate]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[It's not just for stats: Web mining in R]]></title>
+    <link href="http://DASpringate.github.io/blog/2014/06/06/web-mining-in-r/"/>
+    <updated>2014-06-06T12:23:23+01:00</updated>
+    <id>http://DASpringate.github.io/blog/2014/06/06/web-mining-in-r</id>
+    <content type="html"><![CDATA[<p>These are the slides from a talk I gave to the <a href="http://www.rmanchester.org">Manchester R user group</a> on the 6th of May, 2014.</p>
+
+<p>I discussed what web mining(or web scraping) is and the advantages of using R to do it.  Then I provided a toolkit of R functions for Web mining before giving two examples of using web mining for practical uses:</p>
+
+<ol>
+<li>Downloading multiple files from a website</li>
+<li>A mash-up of data from a number of sources to find out the best places to apply for a new job in academia!</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Survival analysis in R]]></title>
@@ -31,8 +48,6 @@
 <p>In the presentation, I discussed censoring (dealing with missing data of various kinds) and the survival function before introducing the Cox proportional hazards model. This is the most commonly used survival model because it is a semi-parametric model where you can look model the multiplicative effects of your covariates of interest (e.g. drug therapy on survival) without having to explicitly model the shape of the survival curve itself.</p>
 
 <p>I then give a run through of a typical survival analysis in R before providing some links for further reading.</p>
-
-<h2><a href="http://rpubs.com/daspringate/survival">Here are the slides</a></h2>
 ]]></content>
   </entry>
   
