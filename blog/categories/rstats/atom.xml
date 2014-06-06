@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[DataJujitsu]]> - rstats</title>
-  <link href="http://DASpringate.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: rstats | DataJujitsu]]></title>
+  <link href="http://DASpringate.github.io/blog/categories/rstats/atom.xml" rel="self"/>
   <link href="http://DASpringate.github.io/"/>
   <updated>2014-06-06T11:46:49+01:00</updated>
   <id>http://DASpringate.github.io/</id>

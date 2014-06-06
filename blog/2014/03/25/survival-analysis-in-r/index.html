@@ -5,7 +5,7 @@
 	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
 	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta charset="utf-8">
-	<title>Blog Archives  | DataJujitsu</title>
+	<title>Survival analysis in R  | DataJujitsu</title>
 
 <meta name="author" content="David A Springate"> 
 
@@ -100,19 +100,41 @@ $(document).ready(
 
 </header>
 
-	<div id="content" class="inner">
-	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Survival Analysis in R</h2>
+	<div class="entry-content"><p>I recently gave a talk at the Manchester University Faculty of Life Sciences R user group on Survival Analysis in R.  Survival analysis is hugely important for modelling longditudinal data like cohort studies.  However, people still find it tricky to understand and even a recent paper I reviewed did a logistic regression when they should have done survival analysis. Beyond epidemiology and health research, survival analysis is a really useful addition to ecologists and biologists toolkits when they might want to model the time taken for some event to occur. For example:</p>
+
+<ul>
+<li>Germination timing</li>
+<li>Arrival of a migrant or parasite</li>
+<li>Seed or offspring dispersal</li>
+<li>Response to some stimulus</li>
+</ul>
 
 
-	
-	
-	<section class="archives"><h1 class="year">2014</h1>
+<p>In the presentation, I discussed censoring (dealing with missing data of various kinds) and the survival function before introducing the Cox proportional hazards model. This is the most commonly used survival model because it is a semi-parametric model where you can look model the multiplicative effects of your covariates of interest (e.g. drug therapy on survival) without having to explicitly model the shape of the survival curve itself.</p>
 
-<article>
-	<h2 class="title"><a href="/blog/2014/03/25/survival-analysis-in-r/">Survival analysis in R</a></h2>
-	<div class="meta">
-		<div class="date">Mar 25</div>
-		
+<p>I then give a run through of a typical survival analysis in R before providing some links for further reading.</p>
+
+<h2><a href="http://rpubs.com/daspringate/survival">Here are the slides</a></h2>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-25T10:04:22+00:00" pubdate data-updated="true">Mar 25<span>th</span>, 2014</time></div>
+	
 
 <div class="tags">
 
@@ -121,149 +143,34 @@ $(document).ready(
 </div>
 
 
-	    
-	    <span class="comments"><a href="/blog/2014/03/25/survival-analysis-in-r/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
-
 	
+		<span class="comments"><a href="/blog/2014/03/25/survival-analysis-in-r/#disqus_thread">Comments</a></span>
+	
+</div></article>
 
-
-<article>
-	<h2 class="title"><a href="/blog/2014/01/31/book-review-machine-learning-with-r/">Book review: Machine Learning with R</a></h2>
-	<div class="meta">
-		<div class="date">Jan 31</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/ml/'>ML</a>, <a class='category' href='/blog/categories/r/'>R</a>, <a class='category' href='/blog/categories/reviews/'>Reviews</a>
-
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> --->
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
 </div>
 
 
-	    
-	    <span class="comments"><a href="/blog/2014/01/31/book-review-machine-learning-with-r/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
 
-	
-
-
-	
-	
-		</section>
-	
-	<section class="archives"><h1 class="year">2013</h1>
-
-<article>
-	<h2 class="title"><a href="/blog/2013/05/31/mapping-academic-collaborations-in-evolutionary-biology/">Mapping academic collaborations in Evolutionary Biology</a></h2>
-	<div class="meta">
-		<div class="date">May 31</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/python/'>Python</a>, <a class='category' href='/blog/categories/r/'>R</a>
-
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-
-
-	    
-	    <span class="comments"><a href="/blog/2013/05/31/mapping-academic-collaborations-in-evolutionary-biology/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
-
-	
-
-
-<article>
-	<h2 class="title"><a href="/blog/2013/05/24/develop-in-rstudio/">Develop in RStudio, run in RScript</a></h2>
-	<div class="meta">
-		<div class="date">May 24</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/r/'>R</a>, <a class='category' href='/blog/categories/rstudio/'>RStudio</a>, <a class='category' href='/blog/categories/multicore/'>multicore</a>
-
-</div>
-
-
-	    
-	    <span class="comments"><a href="/blog/2013/05/24/develop-in-rstudio/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
-
-	
-
-
-<article>
-	<h2 class="title"><a href="/blog/2013/05/16/functional-programming-in-r/">Functional programming in R</a></h2>
-	<div class="meta">
-		<div class="date">May 16</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/fp/'>FP</a>, <a class='category' href='/blog/categories/lisp/'>Lisp</a>, <a class='category' href='/blog/categories/r/'>R</a>
-
-</div>
-
-
-	    
-	    <span class="comments"><a href="/blog/2013/05/16/functional-programming-in-r/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
-
-	
-
-
-<article>
-	<h2 class="title"><a href="/blog/2013/04/16/two-r-tutorials-for-beginners/">Two R Tutorials for beginners</a></h2>
-	<div class="meta">
-		<div class="date">Apr 16</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/r/'>R</a>, <a class='category' href='/blog/categories/tutorials/'>Tutorials</a>
-
-</div>
-
-
-	    
-	    <span class="comments"><a href="/blog/2013/04/16/two-r-tutorials-for-beginners/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
-
-	
-
-
-<article>
-	<h2 class="title"><a href="/blog/2013/04/16/scraping-organism-metadata-for-treebase-repositories-from-gold-using-python-and-r/">Scraping organism metadata for Treebase repositories from GOLD using Python and R</a></h2>
-	<div class="meta">
-		<div class="date">Apr 16</div>
-		
-
-<div class="tags">
-
-	<a class='category' href='/blog/categories/bioinformatics/'>Bioinformatics</a>, <a class='category' href='/blog/categories/python/'>Python</a>, <a class='category' href='/blog/categories/r/'>R</a>
-
-</div>
-
-
-	    
-	    <span class="comments"><a href="/blog/2013/04/16/scraping-organism-metadata-for-treebase-repositories-from-gold-using-python-and-r/#disqus_thread">Comments</a></span>
-	    
-	</div>
-</article>
+</section>
 </div>
 	<footer id="footer" class="inner">Copyright &copy; 2014
 
@@ -285,7 +192,10 @@ Powered by Octopress.
       var disqus_shortname = 'daspringate';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://DASpringate.github.io/blog/2014/03/25/survival-analysis-in-r/';
+        var disqus_url = 'http://DASpringate.github.io/blog/2014/03/25/survival-analysis-in-r/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
