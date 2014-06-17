@@ -2,6 +2,12 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
+            http://DASpringate.github.io/blog/2013/03/31/mapping-academic-collaborations-in-evolutionary-biology/
+        </loc>
+        <lastmod>2014-06-06T13:50:40+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
             http://DASpringate.github.io/blog/2013/04/16/scraping-organism-metadata-for-treebase-repositories-from-gold-using-python-and-r/
         </loc>
         <lastmod>2014-06-03T12:53:56+01:00</lastmod>
@@ -17,12 +23,6 @@
     <url>
         <loc>http://DASpringate.github.io/blog/2013/05/24/develop-in-rstudio/</loc>
         <lastmod>2014-06-03T15:27:24+01:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://DASpringate.github.io/blog/2013/05/31/mapping-academic-collaborations-in-evolutionary-biology/
-        </loc>
-        <lastmod>2014-06-03T15:30:53+01:00</lastmod>
     </url>
     <url>
         <loc>
@@ -43,16 +43,22 @@
         <lastmod>2014-06-06T13:00:46+01:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://DASpringate.github.io/blog/2014/06/17/using-twitter-to-keep-up-with-medical-literature/
+        </loc>
+        <lastmod>2014-06-17T09:21:48+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://DASpringate.github.io/blog/</loc>
-        <lastmod>2014-06-06T13:02:49+01:00</lastmod>
+        <lastmod>2014-06-17T09:21:48+01:00</lastmod>
     </url>
     <url>
         <loc>http://DASpringate.github.io/blog/archives/</loc>
-        <lastmod>2014-06-06T13:02:49+01:00</lastmod>
+        <lastmod>2014-06-17T09:21:48+01:00</lastmod>
     </url>
     <url>
         <loc>http://DASpringate.github.io/</loc>
-        <lastmod>2014-06-06T13:02:49+01:00</lastmod>
+        <lastmod>2014-06-17T09:21:48+01:00</lastmod>
     </url>
     <url>
         <loc>http://DASpringate.github.io/robots.txt</loc>
@@ -72,7 +78,7 @@
     </url>
     <url>
         <loc>http://DASpringate.github.io/books/</loc>
-        <lastmod>2014-06-05T10:50:04+01:00</lastmod>
+        <lastmod>2014-06-09T15:12:51+01:00</lastmod>
     </url>
     <url>
         <loc>http://DASpringate.github.io/R.xml</loc>
@@ -80,7 +86,7 @@
     </url>
     <url>
         <loc>http://DASpringate.github.io/archives/</loc>
-        <lastmod>2014-06-06T13:02:49+01:00</lastmod>
+        <lastmod>2014-06-17T09:21:48+01:00</lastmod>
     </url>
     <url>
         <loc>http://DASpringate.github.io/rstats.xml</loc>

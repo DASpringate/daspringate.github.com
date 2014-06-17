@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: EMRs | DataJujitsu]]></title>
-  <link href="http://DASpringate.github.io/blog/categories/emrs/atom.xml" rel="self"/>
+  <title><![CDATA[Category: twitter | DataJujitsu]]></title>
+  <link href="http://DASpringate.github.io/blog/categories/twitter/atom.xml" rel="self"/>
   <link href="http://DASpringate.github.io/"/>
   <updated>2014-06-17T09:29:26+01:00</updated>
   <id>http://DASpringate.github.io/</id>
@@ -31,15 +31,6 @@
 <p>According to this <a href="https://twitter.com/caseybergman/literaturebots/members">list</a>, there are already over 30 twitterbots indexing scientific literature over a range of disciplines from neuroscience, cell biology, parasitology to evolutionary ecology. Having access to a small network of feeds over several closely related disciplines to cross reference would be immensely helpful in keeping up with the literature and forming the basis of systematic reviews.  Health researchers may frequently find themselves hopping between projects in different research areas &ndash; one day diabetes, the next cardiovascular disease, the next mental health &ndash; and having an easily accessible feed to the most recent literature for each would be invaluable.</p>
 
 <p>Setting up a twitter feed for publications in your research area is easy.  You just need a twitter account and a free account with <a href="https://dlvr.it/">dlvr.it</a>, a content sharing service. See these <a href="https://github.com/roblanf/phypapers">two</a> <a href="http://caseybergman.wordpress.com/2014/02/24/keeping-up-with-the-scientific-literature-using-twitterbots-the-flypapers-experiment/">posts</a> for detailed instructions on how to set up your own feed.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Care.data could help avoid another pharma scandal]]></title>
-    <link href="http://DASpringate.github.io/blog/2014/02/26/caredata/"/>
-    <updated>2014-02-26T11:27:02+00:00</updated>
-    <id>http://DASpringate.github.io/blog/2014/02/26/caredata</id>
-    <content type="html"><![CDATA[<p>This is a post I wrote for <a href="http://theconversation.com"><em>The Conversation</em></a> on the problems with the new UK Care.data electronic medical record database.  The post was later taken up by BBC news and I appeared on the BBC1 Breakfast show for a televised debate with the GP Gordon Gantz on the benefits of a national medical record database.</p>
 ]]></content>
   </entry>
   
