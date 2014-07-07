@@ -4,7 +4,7 @@ title: "Using twitter to keep up to date with the medical literature"
 date: 2014-06-17 22:04:42 +0100
 comments: true
 published: true
-categories: [scientific literature, twitter, EMRs, Health research]
+categories: [scientific literature, twitter, EMRs, Health research, twitter]
 ---
 
 The medical literature is huge and growing at an explosive rate.  According to a [2010 study](http://www.plosmedicine.org/article/info%3Adoi%2F10.1371%2Fjournal.pmed.1000326#pmed-1000326-g004), there were 75 clinical trials and 11 systematic reviews being published _every day_. In a couple of quick Pubmed searches I found 17571 papers published with "clinical trials" and 7974 with "primary care" in the title or abstract in 2013 alone.  With these kinds of numbers, the prospect of keeping on top of the new publications in even a relatively small subset of this literature seems daunting to say the least. Even two weeks of annual leave would mean you have potentially hundreds of papers to plough through!  Wouldn't it be good to have some kind of real-time feed of papers in your research area that you could check on a regular basis and quickly scan for anything that is directly relevant or interesting?

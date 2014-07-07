@@ -11,6 +11,9 @@ footer: true
 
 This is a list of books I have read or am reading (most recent first) with links to any reviews. The list starts some time in early 2014.
 
+* The Hundred-Year-Old Man who climbed out of the window and disappeared - Jonas Jonasson
+* Planet of the Apes - Pierre Boulle
+* [Social Media Mining with R by Nathan Danneman and Richard Heiman](/blog/2014/01/31/book-review-machine-learning-with-r/)
 * Big data: A revolution that will transform how we live, work and think -  Kenneth Cukier and Viktor Mayer-Schonberger
 * Blood Meridian - Cormac McCarthy
 * Everything that Remains - Joshua Fields Millburn & Ryan Nicodemus 

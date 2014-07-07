@@ -3,7 +3,7 @@ layout: post
 title: "Book review: Social Media Mining with R"
 date: 2014-06-20 21:40:37 +0100
 comments: true
-categories: [rstats, Reviews, data science]
+categories: [rstats, Reviews, data science, twitter]
 ---
 
 [Social Media Mining with R by Nathan Danneman and Richard Heimann](http://www.packtpub.com/social-media-mining-with-r/book)
