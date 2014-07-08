@@ -18,14 +18,14 @@ I am employed as a  research fellow in the [Centre for Biostatistics](http://www
 
 In 2012 I completed a PhD in evolutionary biology, studying plastic and genetic responses to environmental changes. My previous work has covered a range of topics including evolutionary genetics, artificial life, machine learning, computational biology and bioinformatics.
 
-I have been programming seriously since 2008. I am expert in R and Python and fluent in SQL and Clojure (which is rapidly becoming my favourite language of all). I also speak conversational Common Lisp, Scheme, Processing, C  and Stata. I have skills and experience in acquiring, processing, modelling and visualising large and complicated datasets.
+I started coding as a kid building text adventures and fractals in AmigaBASIC, but I have been programming seriously since 2008. I am expert in R and Python and fluent in Clojure (which is rapidly becoming my favourite language of all). I also speak conversational SQL, Common Lisp, Scheme, Processing, C  and Stata. I have skills and experience in acquiring, processing, modelling and visualising large and complicated datasets.
 
 I am a dad of two girls, an [avid reader](/books/), connoisseur of lo-fi indie pop and occasional flamenco guitarist.
 
 Get in contact:
 
 * [twitter](http://twitter.com/datajujitsu)
-* daspringate `in or near the location of`  gmail  `a very small circular shape` com
+* daspringate `in or near the location of`  gmail  `a small circular shape` com
 * [linkedin](https://www.linkedin.com/in/daspringate)
 * [GitHub](https://github.com/DASpringate)
 
