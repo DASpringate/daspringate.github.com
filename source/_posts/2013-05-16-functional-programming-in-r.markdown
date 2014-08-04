@@ -3,7 +3,7 @@ layout: post
 title: "Functional programming in R"
 date: 2013-05-16 13:02:30 +0100
 comments: true
-categories: [R, FP, Lisp] 
+categories: [R, Functional Programming, Lisp] 
 ---
 
 _This post is based on a talk I gave at the [Manchester R User Group](http://www.meetup.com/Manchester-R/) on functional programming in R on May 2nd 2013.  The original slides can be found [here](http://www.slideshare.net/DASpringate/functional-programming-in-r)_

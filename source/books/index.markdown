@@ -9,11 +9,13 @@ footer: true
 
 # Reading list
 
-This is a list of books I have read or am reading (most recent first) with links to any reviews. The list starts some time in early 2014.
+This is a list of books I have read or am reading (most recent first) with links to any reviews. The list started some time in early 2014.
 
+* [Haskell Data Analysis Cookbook](/blog/2014/08/04/book-review-haskell-data-analysis-cookbook) - Nishant Shukla
+* The World Without Us - Alan Weisman
 * The Hundred-Year-Old Man who climbed out of the window and disappeared - Jonas Jonasson
 * Planet of the Apes - Pierre Boulle
-* [Social Media Mining with R by Nathan Danneman and Richard Heiman](/blog/2014/01/31/book-review-machine-learning-with-r/)
+* [Social Media Mining with R](/blog/2014/06/20/review-social-media-mining-with-r/) - Nathan Danneman and Richard Heiman
 * Big data: A revolution that will transform how we live, work and think -  Kenneth Cukier and Viktor Mayer-Schonberger
 * Blood Meridian - Cormac McCarthy
 * Everything that Remains - Joshua Fields Millburn & Ryan Nicodemus 
