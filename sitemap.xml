@@ -88,7 +88,7 @@
     </url>
     <url>
         <loc>http://DASpringate.github.io/books/</loc>
-        <lastmod>2014-08-04T13:46:07+01:00</lastmod>
+        <lastmod>2014-12-17T09:45:04+00:00</lastmod>
     </url>
     <url>
         <loc>http://DASpringate.github.io/R.xml</loc>
@@ -109,5 +109,9 @@
     <url>
         <loc>http://DASpringate.github.io/research/</loc>
         <lastmod>2014-06-05T11:51:55+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://DASpringate.github.io/research/risk/</loc>
+        <lastmod>2014-12-17T10:13:27+00:00</lastmod>
     </url>
 </urlset>
