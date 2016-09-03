@@ -11,6 +11,16 @@ footer: true
 
 This is a list of books I have read or am reading (most recent first) with links to any reviews. The list started some time in early 2014.
 
+* For Whom The Bell Tolls - Ernest Hemmingway
+* Kettlebell Simple and Sinister - Pavel Tsatsouline
+* A Widow for one Year - John Irving 
+* The Naked Warrior - Pavel Tsatsouline
+* JavaScript & JQuery: Interactive Front-end Web Development - Jon Duckett
+* Speak - Robin Kermode
+* Zero to One - Peter Thiel
+* The Vertical Farm - Dickson Despommier
+* And So It Goes: Kurt Vonnegut: A Life - Charles Shields
+* The Knowledge: How to Rebuild our World from Scratch - Lewis Dartnell
 * Charles Darwin: Voyaging (vol 1) - Janet Browne
 * A Christmas Carol - Charles Dickens
 * Lyrical Ballads - William Wordsworth and ST Coleridge 

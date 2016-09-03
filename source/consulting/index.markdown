@@ -15,16 +15,4 @@ I am always interested in setting up new collaborations and am happy to provide 
 
 ## Other
 
-I am a data science consultant for [Together Analytics](http://www.togetheranalytics.com). We provide data analytics services for enterprise and charities including big data, statistics, data science, data management and social media analysis.          
-
-I am interested in new startup ideas in the tech and healthcare spaces and may be available for collaboration and consultancy on:
-
-* R
-* Statistics / Data mining / Machine learning
-* Building data pipelines and workflows
-* Web mining
-* Social media analytics
-* Python / Django
-* Clojure / Functional programming
-
-Get in contact and we can chat.
+I am interested in new startup ideas in big data, e-health, smart cities and future farming and may be available for collaboration and consultancy. Get in contact and we can chat.

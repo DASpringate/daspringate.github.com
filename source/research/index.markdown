@@ -9,7 +9,7 @@ footer: true
 
 ## My Publications: [Google scholar](http://scholar.google.co.uk/citations?user=Llovsi8AAAAJ&hl=en)
 
-## Projects:
+## Academic Projects:
 
 ### Informatics for more efficient research with primary care databases
 
