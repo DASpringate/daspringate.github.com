@@ -1,0 +1,179 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>software  | DataJujitsu</title>
+
+<meta name="author" content="David A Springate"> 
+
+<meta name="description" content="This is my personal blog covering my interests in health informatics, coding and biostatistics."> <meta name="keywords" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="DataJujitsu" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	
+</head>
+
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">DataJujitsu</a></h1>
+<h4>Data, Stats & Code</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/research">Research</a></li>
+	<li><a href="/software">Software</a></li>
+	<li><a href="/consulting">Consulting</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/research">Research</a></li>
+	<li><a href="/software">Software</a></li>
+	<li><a href="/consulting">Consulting</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:DASpringate.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+</header>
+
+	<div id="content" class="inner"><article class="page">
+    <div class="entry-content"><h1>Software</h1>
+
+<p>Here is a list of the software projects that I am or have been involved with. More details can be found at my <a href="https://github.com/DASpringate">Github page</a></p>
+
+<ul>
+<li><a href="https://github.com/rOpenHealth/rCPRD"><strong>rCPRD</strong></a>: R tools for processing and extracting clinical information from downloaded CPRD cohorts.  This software package provides tools for interrogating cohorts of primary care data downloaded from CPRD.  The package rapidly accelerates the data acquisition and processing stage of PCD studies</li>
+<li><a href="https://github.com/rOpenHealth"><strong>rOpenHealth</strong></a>: This is a collaborative project  to develop R tools facilitating access to quantitative healthcare and public health data.  The eventual aim is to wrap all publicly accessible health data APIs in R code to make them more easily available for researchers.  This project is a spin-off from the well-known <a href="http://ropensci.org/">rOpenSci</a> open data project</li>
+<li><a href="www.clinicalcodes.org"><strong>ClinicalCodes.org</strong></a> : An online repository to improve validity and reproducability of medical database research.  I conceived, designed and built this site which is an innovative approach to dealing with problems of validity in observational research</li>
+<li><a href="http://cran.r-project.org/web/packages/rClinicalCodes/"><strong>rClinicalCodes</strong></a> A CRAN package for integrating with the ClinicalCodes.org website (<a href="https://github.com/rOpenHealth/rClinicalCodes">Development versions</a>)</li>
+<li><a href="https://github.com/rOpenHealth/rpubmed"><strong>rPubmed</strong></a>. Tools for extracting and processing Pubmed and Pubmed Central records</li>
+<li><a href="https://github.com/DASpringate/samatha"><strong>Samatha</strong></a>.  An R package for building static websites suitable for dissemination of scientific and statistical ideas and code via blogs and tutorials</li>
+<li><a href="https://github.com/DASpringate/Rkoans"><strong>RKoans</strong></a>. An interactive set of tutorials teaching the basics of the R programming language via a unit testing framework</li>
+<li><a href="https://github.com/bergmanlab/ecologIE"><strong>EcologIE</strong></a>.Tools for text mining and information extraction on the ecological literature</li>
+</ul>
+
+</div>
+</article>
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2014
+
+    David A Springate
+
+<br>
+Powered by Octopress.
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'daspringate';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://DASpringate.github.io/software/index.html';
+        var disqus_url = 'http://DASpringate.github.io/software/index.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-40926137-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>

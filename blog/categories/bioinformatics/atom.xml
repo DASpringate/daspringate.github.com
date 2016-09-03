@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Bioinformatics | DataJujitsu]]></title>
+  <link href="http://DASpringate.github.io/blog/categories/bioinformatics/atom.xml" rel="self"/>
+  <link href="http://DASpringate.github.io/"/>
+  <updated>2014-12-17T12:24:22+00:00</updated>
+  <id>http://DASpringate.github.io/</id>
+  <author>
+    <name><![CDATA[David A Springate]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Scraping organism metadata for Treebase repositories from GOLD using Python and R]]></title>
+    <link href="http://DASpringate.github.io/blog/2013/04/16/scraping-organism-metadata-for-treebase-repositories-from-gold-using-python-and-r/"/>
+    <updated>2013-04-16T12:37:59+01:00</updated>
+    <id>http://DASpringate.github.io/blog/2013/04/16/scraping-organism-metadata-for-treebase-repositories-from-gold-using-python-and-r</id>
+    <content type="html"><![CDATA[<p>I recently wanted to get hold of habitat/phenotype/sequencing metadata for the individual organisms of  an archived <a href="http://treebase.org/treebase-web/home.html">Treebase</a> project.</p>
+
+<p>The <a href="http://www.genomesonline.org/">GOLD</a> database holds  more than 18000 full genomes.  For many of these it provides pretty good metadata (<a href="http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gc00536">GOLDcards</a>) which are indirectly linked  to Treebase via <a href="http://www.ncbi.nlm.nih.gov/taxonomy">NCBI</a> taxa <a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;amp;id=122368">IDs</a>.</p>
+
+<p>Unfortunately GOLD does not seem to have any kind of API for systematic downloads, so I hacked together a very <a href="https://gist.github.com/2929217">quick-and-dirty scraper</a> in Python that reads in taxa from a Treebase repo, follows the links to each species NCBI page and downloads the linked GOLDcard, if it exists.</p>
+
+<p>Here is the code. You will need the external BeautifulSoup and lxml libraries for this to work &ndash; both are fantastic. (The Treebase repo here is from Wu et al. 2009**, just change the url string for a different repo):</p>
+
+<p>Once you have downloaded all of the available files, It would be great to have your metadata in a nice flatfile with one line per taxa, right?  I did this with a little <a href="https://gist.github.com/2929366">R script</a> using the rather wonderful readHTMLtable() function in the XML (install.packages(&lsquo;XML&rsquo;)) package.</p>
+
+<p>The output is a semicolon separated file with taxa in the rows and the different categories of metadata in columns. The metadata is often fairly incomplete, and  there are plenty of omissions, but hopefully it will become more useful as more deposits are made to GOLD.</p>
+
+<p>** Wu D., Hugenholtz P., Mavromatis K., Pukall R., Dalin E., Ivanova N.N., Kunin V., Goodwin L., Wu M., Tindall B.J., Hooper S.D., Pati A., Lykidis A., Spring S., Anderson I.J., D'haeseleer P., Zemla A., Singer M., Lapidus A., Nolan M., Copeland A., Chen F., Cheng J., Lucas S., Kerfeld C., Lang E., Gronow S., Chain P., Bruce D., Rubin E.M., Kyrpides N.C., Klenk H., &amp; Eisen J.A. 2009. A phylogeny-driven genomic encyclopaedia of Bacteria and Archaea. Nature, 462(7276): 1056-1060.</p>
+]]></content>
+  </entry>
+  
+</feed>
